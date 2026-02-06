@@ -1,9 +1,9 @@
 /* Navbar.module.css */
 .sideNav{
-    position: fixed;
-    width: 25vh;
+    width: 250px;
     height: 100vh;
-    background-color: #181818;
+    background-color: #1a1a1a;
+    position: fixed;
 }
 .sideNav-content{
     border-style: solid;

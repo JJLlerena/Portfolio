@@ -6,11 +6,15 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
+  const mainStyles = {
+    height: '100vh',
+    width: '100%',
+    display: 'flex',
+  };
 
   return (
-    <div style={mainStyles}>
-      <SideNav/>
-      <About/>
+    <div className="flex">
+      <SideNav />
     </div>
   )
 }

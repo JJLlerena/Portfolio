@@ -1,9 +1,9 @@
 import { Nav, Navbar, Container} from 'react-bootstrap';
-import Logo from "./Images/Portfolio_Logo.svg";
-import "./Navbar.css" ;
+import Logo from "../Assets/Portfolio_Logo.svg";
+import "./Navbar.css";
 
 //import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'reactstrap';
+//import { Button } from 'react-bootstrap';
 
 function SideNav() {
  
@@ -12,7 +12,7 @@ function SideNav() {
         <Container className="sideNav-content">
           <Container className="logoBox"> 
             <img src={Logo} alt="logo" />
-            <a> Johnny Llerena</a>
+            <a className="text-red-400"> Johnny Llerena</a>
           </Container>
           <Navbar.Collapse>
             <Nav>
