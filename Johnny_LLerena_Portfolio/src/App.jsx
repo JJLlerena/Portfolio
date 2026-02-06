@@ -1,19 +1,14 @@
 import { useState } from 'react'
-import SideNav from './Navigation/Navbar';
-import About from './Components/About';
-import styles from './styles.module.css';
-import './App.css'
+import SideNav from './navigation/Navbar';
+import About from './sections/About';
+import Styles from './styles.module.css';
+import Body from './sections/Body';
 
 function App() {
   const [count, setCount] = useState(0)
-  const mainStyles = {
-    height: '100vh',
-    width: '100%',
-    display: 'flex',
-  };
-
+  
   return (
-    <div className="flex">
+    <div className="bg-white h-screen w-screen">
       <SideNav />
     </div>
   )

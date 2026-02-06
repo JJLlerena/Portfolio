@@ -1,9 +1,7 @@
 import { Nav, Navbar, Container} from 'react-bootstrap';
-import Logo from "../Assets/Portfolio_Logo.svg";
-import "./Navbar.css";
+import Logo from "../assets/Portfolio_Logo.svg";
+import "./navbar.css";
 
-//import 'bootstrap/dist/css/bootstrap.min.css';
-//import { Button } from 'react-bootstrap';
 
 function SideNav() {
  

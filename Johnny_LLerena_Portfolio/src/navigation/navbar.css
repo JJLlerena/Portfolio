@@ -41,8 +41,13 @@
     border-style: solid;
     border-width: 5px 0px 0px 0px;
     border-color: #1d1d1d;
-    text-decoration: none;
-    font-size: 150%;
+    text-decoration: dotted;
+    font-size: 1.8rem;
     text-align: center;
     color: darkgray;
+}
+.navLink:hover{
+    background-color: #2d2d2d;
+    color: white;
+    cursor: pointer;
 }
