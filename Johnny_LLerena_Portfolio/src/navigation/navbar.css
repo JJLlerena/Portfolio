@@ -26,13 +26,6 @@
     max-height: 100%;
 }
 
-.name{
-    color: white;
-    margin: 0px 0px;
-    padding: 20% 20%;
-    text-align: center;
-    background-color: rgb(18, 18, 18);
-}
 
 .navLink{
     display: block;

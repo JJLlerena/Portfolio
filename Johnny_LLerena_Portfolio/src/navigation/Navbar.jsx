@@ -10,7 +10,7 @@ function SideNav() {
         <Container className="sideNav-content">
           <Container className="logoBox"> 
             <img src={Logo} alt="logo" />
-            <a className="text-red-400"> Johnny Llerena</a>
+            <a className="color"> Johnny Llerena</a>
           </Container>
           <Navbar.Collapse>
             <Nav>
