@@ -2,7 +2,7 @@ import { useState } from 'react'
 import SideNav from './navigation/Navbar';
 import About from './sections/About';
 import Contact from './sections/Contact';
-import Work from './sections/Projects';
+import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
       <main className="ml-[250px] p-10" >
         <About />
         <Skills />
-        <Work />
+        <Projects />
         <Contact />
       </main>
     </div>
