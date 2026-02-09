@@ -1,10 +1,9 @@
 //react component for formatting the sections in the main content area
-function SectionContainer({ title, children }) {
+function SectionContainer({ id, background="bg-yellow-500", children }) {
     return (
-        <div className="section-container">
-            <h2>{title}</h2>
+        <section id={id} className={`${background} p-10 m-5`}>
             {children}
-        </div>
+        </section>
     );
 }
 
