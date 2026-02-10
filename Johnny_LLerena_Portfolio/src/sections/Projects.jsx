@@ -13,7 +13,13 @@ function Projects() {
                     github="https://github.com/yourusername/portfolio"
                     demo="https://yoursite.com"
                 />
-                {/* More projects */}
+                <ProjectCard
+                    title="Dubla Garage Doors"
+                    description="Built a website for a local garage door company"
+                    tech="WordPress, Elementor, PHP"
+                    live="https://dublagaragedoors.com"
+
+                />
             </div>
         </SectionContainer>
     );
