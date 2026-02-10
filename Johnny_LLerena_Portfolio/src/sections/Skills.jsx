@@ -3,8 +3,8 @@ import SectionContainer from "../components/SectionContainer";
 
 function Skills() {
     return(
-        <SectionContainer id="skills" heading="My Skills" background="bg-yellow-500">
-            <ul className="list-disc list-inside text-white mt-2 space-y-1 pl-6">
+        <SectionContainer id="skills" heading="My Skills">
+            <ul className="list-disc list-inside text-white space-y-1 pl-6">
                 <p>
                     <span className="font-bold">Languages:</span> JavaScript, TypeScript, Python, Java, HTML/CSS, C#, C++
                 </p>

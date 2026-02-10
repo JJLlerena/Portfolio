@@ -11,12 +11,14 @@ function App() {
   return (
     <div className=" h-screen w-screen">
       <SideNav />
-      <main className="ml-[250px] p-10" >
-        <About />
-        <Skills />
-        <Projects />
-        <Contact />
-      </main>
+      <div className="flex ml-[250px] px-5 py-2 h-screen">
+        <main className="bg-[#1a1a1a] pt-10 rounded-sm flex-1 overflow-y-auto">
+          <About />
+          <Skills />
+          <Projects />
+          <Contact />
+        </main>
+      </div>
     </div>
   );
 }
