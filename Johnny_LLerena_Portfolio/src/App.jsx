@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import SideNav from './navigation/Navbar';
 import About from './sections/About';
-import Contact from './sections/Contact';
 import Projects from './sections/Projects';
 import Skills from './sections/Skills';
 
@@ -11,7 +10,7 @@ function App() {
   return (
     <div className=" h-screen w-screen">
       <SideNav />
-      <div className="flex ml-50 px-5 py-2 h-screen">
+      <div className="flex ml-55 px-5  h-screen">
         <main className="bg-[#1a1a1a] pt-10 rounded-sm flex-1 overflow-y-auto">
           <About />
           <Skills />

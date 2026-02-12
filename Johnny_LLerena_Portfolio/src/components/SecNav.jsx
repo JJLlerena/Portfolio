@@ -6,6 +6,7 @@ function SecNav({ href, text }) {
             place-content-center 
             text-2xl font-bold
             p-2 border-y-3 border-[#2d2d2d]
+            hover:bg-[#2d2d2d]
             " 
             onClick={() => window.location.href = href}>
             <span>{text}</span>
