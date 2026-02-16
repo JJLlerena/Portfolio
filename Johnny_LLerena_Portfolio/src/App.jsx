@@ -8,15 +8,13 @@ function App() {
   const [count, setCount] = useState(0)
   
   return (
-    <div className=" h-screen w-screen">
+    <div className="flex h-screen w-screen bg-[#2e2e2e] text-white overflow-auto ">
       <SideNav />
-      <div className="flex ml-60 px-5  h-screen">
-        <main className="bg-[#1a1a1a] pt-10 rounded-sm flex-1 overflow-y-auto">
+        <main className="flex flex-col ml-60  overflow-auto space-y-20">
           <About />
           <Skills />
           <Projects />
         </main>
-      </div>
     </div>
   );
 }

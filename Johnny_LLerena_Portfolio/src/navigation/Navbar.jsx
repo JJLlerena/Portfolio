@@ -1,5 +1,4 @@
 import Logo from "../assets/Portfolio_Logo.svg";
-import "./navbar.css";
 import SecNav from "../components/SecNav";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 
@@ -7,8 +6,7 @@ import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
 function SideNav() {
   function Logobox (){
     return(
-      <div className="flex flex-col place-content-center 
-        justify-items-center text-center gap-6 h-[30vh]"
+      <div className="flex flex-col place-content-center text-center  h-[30vh]"
       > 
         <img 
           className='h-25  cursor-pointer'
