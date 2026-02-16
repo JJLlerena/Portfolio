@@ -6,7 +6,7 @@ Personal portfolio showcasing web development projects and technical skills.
 
 - React
 - React Router
-- CSS3 / Styled Components
+- TailwindCSS styled components
 - Deployed on Vercel
 
 ## Features
@@ -19,7 +19,7 @@ Personal portfolio showcasing web development projects and technical skills.
 ## Setup
 ```bash
 npm install
-npm start
+npm run dev
 ```
 
 Runs on `localhost:3000`
