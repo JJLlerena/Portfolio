@@ -50,17 +50,32 @@ function SideNav() {
   }
   function NavFoot(){
     return(
-      <div className="h-full flex flex-col 
-        text-gray-400 text-[.7rem] place-content-center gap-4">
-          <div className="text-center mb-5">
+      <div className="
+        h-full flex flex-col 
+        text-gray-400 text-[.7rem] 
+        place-content-center gap-4"
+      >
+        <div className="text-center mb-5">
           <p><strong>Looking for a junior developer?</strong></p>
           <p><strong>Let's talk.</strong></p>
-          </div>
-          <div className="flex flex-col gap-1 ">
-          <SocialLinks href="mailto:Johnnyjllerena@gmail.com" Logo={FaEnvelope} text="Johnnyjllerena@gmail.com" />
-          <SocialLinks href="https://linkedin.com/in/johnnyjllerena/" Logo={FaLinkedin} text="johnnyjllerena" />
-          <SocialLinks href="https://github.com/JJLlerena" Logo={FaGithub} text="JJLlerena" />
-          </div>
+        </div>
+        <div className="flex flex-col gap-1 ">
+          <SocialLinks 
+            href="mailto:Johnnyjllerena@gmail.com" 
+            Logo={FaEnvelope} 
+            text="Johnnyjllerena@gmail.com" 
+          />
+          <SocialLinks 
+            href="https://linkedin.com/in/johnnyjllerena/" 
+            Logo={FaLinkedin} 
+            text="johnnyjllerena" 
+          />
+          <SocialLinks 
+            href="https://github.com/JJLlerena" 
+            Logo={FaGithub} 
+            text="JJLlerena" 
+          />
+        </div>
       </div>
     );
   }
@@ -69,7 +84,12 @@ function SideNav() {
   
 
   return (
-    <div className="w-60 h-screen bg-gradient-to-t from-[#1a1a1a] from-10% to-[#2e2e2e] from-40% fixed flex flex-col rounded-r-lg shadow-lg">
+    <div className="
+      w-60 h-screen bg-gradient-to-t
+      from-[#1a1a1a] from-10% to-[#2e2e2e]
+      from-40% fixed flex flex-col 
+      rounded-r-lg shadow-lg"
+    >
       <div>
         <Logobox />
         <NavContent />
