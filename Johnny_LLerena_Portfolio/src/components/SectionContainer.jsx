@@ -12,7 +12,7 @@ function SectionContainer({
             className={`
                 ${bgClass}
                 ${extra}  
-                px-10 pb-50 pt-10 m-5 
+                px-50 py-10 m-5 
                 rounded-lg shadow-lg
             `}
         >

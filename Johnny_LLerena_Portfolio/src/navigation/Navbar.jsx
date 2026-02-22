@@ -1,15 +1,38 @@
 import Logo from "../assets/Portfolio_Logo.svg";
 import { FaGithub, FaLinkedin, FaEnvelope } from 'react-icons/fa';
-
+import { useState, useEffect } from "react";
 
 function SideNav() {
+  const [activeSection, setActiveSection] = useState('home');
+  useEffect(() => {
+    const mainEL = document.querySelector('main');
+
+    const handleScroll = () => {
+      const sections = ['about', 'skills', 'projects'];
+
+      for (const id of sections) {
+        const el = document.getElementById(id);
+        if (!el) continue;
+
+        const rect = el.getBoundingClientRect();
+        if (rect.top <= 150 && rect.bottom > 150) {
+          setActiveSection(id);
+          break;
+        }
+      }
+    };
+    mainEL.addEventListener('scroll', handleScroll);
+
+    return () => mainEL.removeEventListener('scroll', handleScroll);
+  }, []);
+
   function Logobox (){
     return(
       <div className="flex flex-col place-content-center text-center h-[30vh] gap-2"
       > 
         <img 
           className='h-25  cursor-pointer'
-          onClick={() => window.location.href = "/"} 
+          onClick={() => document.getElementById('home')?.scrollIntoView({behavior: 'smooth'})} 
           src={Logo} 
           alt="logo"
         />
@@ -17,16 +40,18 @@ function SideNav() {
       </div>
     );
   }
-  function SecNav({ href, text }) {
+  function SecNav({ id, text }) {
     return (
-        <div className="
+        <div className={`
             flex cursor-pointer 
             place-content-center 
             text-2xl font-bold
             p-2 border-y-3 border-[#2d2d2d]
             hover:bg-[#2d2d2d] hover:text-[#1b998b]
-            " 
-            onClick={() => window.location.href = href}>
+            ${activeSection === id ? 'text-[#1b998b] bg-[#2d2d2d]' : ''}
+            `}
+            onClick={() => document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' })}
+        >
             <span>{text}</span>
         </div>
     );
@@ -34,9 +59,9 @@ function SideNav() {
   function NavContent(){
     return(
       <div className="flex flex-col gap-5 mt-10">
-        <SecNav href="#about" text="About" />
-        <SecNav href="#skills" text="Skills" /> 
-        <SecNav href="#projects" text="Projects" />
+        <SecNav id="about" text="About" />
+        <SecNav id="skills" text="Skills" /> 
+        <SecNav id="projects" text="Projects" />
       </div>      
     );
   }

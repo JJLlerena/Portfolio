@@ -7,7 +7,7 @@ function Home() {
         <SectionContainer 
             id="home" 
             bgClass="bg-[#1d1d1d]" 
-            extra="min-h-[95vh]" 
+            extra="min-h-[95vh] scroll-mt-5" 
             heading="Hey, I'm Johnny!"
         >
             <img 
