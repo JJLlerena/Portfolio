@@ -2,28 +2,32 @@
 import SectionContainer from "../components/SectionContainer";
 
 function Skills() {
+    const skills = {
+        languages: ["JavaScript", "TypeScript", "Python", "Java", "HTML/CSS", "C#", "C++"],
+        frameworks: ["React", "Next.js", "Node.js", "Express.js", "Django", "Bootstrap", "Tailwind CSS"],
+        tools: ["Git/GitHub", "VS Code", "Linux (Ubuntu)", "AWS", "Docker", "Wireshark"],
+        databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
+        security: ["Security+", "Network Security", "Penetration Testing", "SIEM", "Vulnerability Assessment"],
+        other: ["Fluent in English and Spanish"]
+    };
     return(
         <SectionContainer id="skills" heading="My Skills">
-            <ul className="list-disc list-inside text-white space-y-1 pl-6">
-                <p>
-                    <span className="font-bold">Languages:</span> JavaScript, TypeScript, Python, Java, HTML/CSS, C#, C++
-                </p>
-                <p>
-                    <span className="font-bold">Frameworks/Libraries:</span> React, Next.js, Node.js, Express.js, Django, Bootstrap, Tailwind CSS
-                </p>
-                <p>
-                    <span className="font-bold">Tools:</span> Git/GitHub, VS Code, Linux (Ubuntu), AWS, Docker, Wireshark
-                </p>
-                <p>
-                    <span className="font-bold">Databases:</span> PostgreSQL, MySQL, MongoDB, Firebase
-                </p>
-                <p>
-                    <span className="font-bold">Security:</span> Security+, Network Security, Penetration Testing, SIEM, Vulnerability Assessment
-                </p>
-                <p>
-                    <span className="font-bold">Other:</span> Fluent in English and Spanish
-                </p>
-            </ul>
+            {Object.entries(skills).map(([category, items]) => (
+        <div key={category} className="mb-8">
+          <h3 className="text-xl font-semibold mb-4 capitalize">{category}</h3>
+          <div className="flex flex-wrap gap-3 pl-px">
+            {items.map(skill => (
+              <span 
+                key={skill}
+                className="bg-gradient-to-tr from-[#1b998b] to-[#2b2b2b] shadow-sm shadow-[#1a1a1a] px-4 py-2 rounded-full text-sm hover:scale-110 transition  eas-in-out "
+                // className="bg-gray-700 px-4 py-2 rounded-full text-sm hover:bg-green-500 transition"
+              >
+                {skill}
+              </span>
+            ))}
+          </div>
+        </div>
+      ))}
         </SectionContainer>
     );
 }

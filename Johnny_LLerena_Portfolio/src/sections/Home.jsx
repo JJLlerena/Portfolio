@@ -1,6 +1,6 @@
 // Landing page of the portfolio, contains the hero section and a brief introduction
 import SectionContainer from "../components/SectionContainer";
-import Profileimg from '../assets/Profile_Placeholder.jpeg';
+import Profileimg from '../assets/ProfilePic.png';
 
 function Home() {
     return(
@@ -13,7 +13,7 @@ function Home() {
             <img 
                 src={Profileimg} 
                 alt="Profile Picture" 
-                className="w-32 h-32 rounded-full mx-auto" 
+                className="w-60 h-60 rounded-full mx-auto" 
             />
         </SectionContainer>
     );

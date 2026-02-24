@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="flex h-screen w-screen bg-[#2e2e2e] text-white  ">
       <SideNav />
-        <main className="flex flex-col h-screen ml-60 space-y-20 pb-96 overflow-auto">
+        <main className="flex flex-col h-screen ml-60 gap-5 pb-96 overflow-auto">
           <Home />
           <About />
           <Skills />
