@@ -1,16 +1,37 @@
-# React + Vite
+# Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Personal portfolio showcasing my software development projects and technical skills.
 
-Currently, two official plugins are available:
+## About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+CS graduate from FIU transitioning into software development. Security+ certified with experience in React and JavaScript development.
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React 19
+- Tailwind CSS
+- Vite
+- React Icons
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Single-page design with smooth navigation
+- Project showcase with live demos and GitHub links
+- Active section highlighting in navigation
+- Contact information with social links
+
+## Setup
+```bash
+npm install
+npm run dev
+```
+
+## Live Site
+
+[View Portfolio](https://your-deployed-url.vercel.app)
+
+## Contact
+
+- Email: Johnnyjllerena@gmail.com
+- LinkedIn: [johnnyjllerena](https://linkedin.com/in/johnnyjllerena/)
+- GitHub: [JJLlerena](https://github.com/JJLlerena)
