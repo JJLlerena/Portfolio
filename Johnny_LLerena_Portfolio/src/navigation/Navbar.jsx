@@ -31,7 +31,7 @@ function SideNav() {
       <div className="flex flex-col place-content-center text-center h-[30vh] gap-2"
       > 
         <img 
-          className='h-25  cursor-pointer'
+          className='h-25 p-4  cursor-pointer'
           onClick={() => document.getElementById('home')?.scrollIntoView({behavior: 'smooth'})} 
           src={Logo} 
           alt="logo"

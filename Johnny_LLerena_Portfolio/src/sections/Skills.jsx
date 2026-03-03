@@ -14,8 +14,8 @@ function Skills() {
         <SectionContainer id="skills" heading="My Skills">
             {Object.entries(skills).map(([category, items]) => (
         <div key={category} className="mb-8">
-          <h3 className="text-xl font-semibold mb-4 capitalize">{category}</h3>
-          <div className="flex flex-wrap gap-3 pl-px">
+          <h3 className="text-xl font-semibold mb-2 capitalize">{category}</h3>
+          <div className="flex flex-wrap gap-2 pl-px">
             {items.map(skill => (
                 <span 
                     key={skill}

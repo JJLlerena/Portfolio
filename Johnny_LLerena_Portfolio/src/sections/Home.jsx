@@ -13,8 +13,14 @@ function Home() {
             <img 
                 src={Profileimg} 
                 alt="Profile Picture" 
-                className="w-60 h-60 rounded-full mx-auto" 
+                className="w-60 h-60 rounded-full my-20 mx-auto" 
             />
+            <p className="">
+                CS grad from FIU currently working as a repair tech 
+                in the Keys while transitioning back into software development. 
+                I picked up my Security+ cert recently and I'm building out this 
+                portfolio to showcase what I can do with React and JavaScript.
+            </p>
         </SectionContainer>
     );
 }    
