@@ -17,10 +17,15 @@ function Skills() {
           <h3 className="text-xl font-semibold mb-4 capitalize">{category}</h3>
           <div className="flex flex-wrap gap-3 pl-px">
             {items.map(skill => (
-              <span 
-                key={skill}
-                className="bg-gradient-to-tr from-[#1b998b] to-[#2b2b2b] shadow-sm shadow-[#1a1a1a] px-4 py-2 rounded-full text-sm hover:scale-110 transition  eas-in-out "
-                // className="bg-gray-700 px-4 py-2 rounded-full text-sm hover:bg-green-500 transition"
+                <span 
+                    key={skill}
+                    className="
+                        bg-gradient-to-tr 
+                        from-[#1b998b] to-[#2b2b2b]    
+                        shadow-sm shadow-[#1a1a1a] 
+                        px-4 py-2 rounded-full text-sm 
+                        hover:scale-125 transition  eas-in-out 
+                        "    
               >
                 {skill}
               </span>
