@@ -28,7 +28,7 @@ npm run dev
 
 ## Live Site
 
-[View Portfolio](https://your-deployed-url.vercel.app)
+[View Portfolio](https://johnnyjllerena.vercel.app)
 
 ## Contact
 
