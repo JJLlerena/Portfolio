@@ -3,12 +3,13 @@ import SectionContainer from "../components/SectionContainer";
 
 function Skills() {
     const skills = {
-        languages: ["JavaScript", "TypeScript", "PHP", "HTML/CSS", "SQL"],
+        programming_languages: ["JavaScript", "TypeScript", "PHP", "HTML/CSS", "SQL"],
         frameworks: ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
-        tools: ["Git/GitHub", "VS Code", "Linux (Ubuntu)", "AWS", "Docker", "Wireshark"],
+        tools: ["Git", "GitHub", "VSCode", "Vercel", "npm", "Linux(Arch)"],
         databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
         security: ["Security+", "Network Security"],
-        other: ["Fluent in English and Spanish"]
+        other: ["RESTful APIs, Responsive Design, Security Best Practices, Agile Development"],
+        languages: ["Fluent in English and Spanish"]
     };
     return(
         <SectionContainer id="skills" heading="My Skills">
