@@ -3,8 +3,8 @@ import SectionContainer from "../components/SectionContainer";
 
 function Skills() {
     const skills = {
-        languages: ["JavaScript", "TypeScript", "Python", "Java", "HTML/CSS", "C#", "C++"],
-        frameworks: ["React", "Next.js", "Node.js", "Express.js", "Django", "Bootstrap", "Tailwind CSS"],
+        languages: ["JavaScript", "TypeScript", "PHP", "HTML/CSS", "SQL"],
+        frameworks: ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
         tools: ["Git/GitHub", "VS Code", "Linux (Ubuntu)", "AWS", "Docker", "Wireshark"],
         databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
         security: ["Security+", "Network Security"],
