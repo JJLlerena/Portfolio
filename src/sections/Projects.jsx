@@ -31,12 +31,6 @@ function Projects() {
                     tech="WordPress, Elementor, PHP"
                     live="https://dublagaragedoors.com"
                 />
-                <ProjectCard
-                    title="Mr Impact Windows & Doors Delivery LLC"
-                    description="WordPress site for an impact windows and doors installer. Built mobile-friendly interface with service galleries and lead capture functionality."
-                    tech="WordPress, Elementor, PHP"
-                    live="https://www.mrimpactdoors.org"
-                />
             </div>
         </SectionContainer>
     );

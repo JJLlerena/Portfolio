@@ -7,7 +7,7 @@ function Skills() {
         frameworks: ["React", "Next.js", "Node.js", "Express.js", "Django", "Bootstrap", "Tailwind CSS"],
         tools: ["Git/GitHub", "VS Code", "Linux (Ubuntu)", "AWS", "Docker", "Wireshark"],
         databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
-        security: ["Security+", "Network Security", "Penetration Testing", "SIEM", "Vulnerability Assessment"],
+        security: ["Security+", "Network Security"],
         other: ["Fluent in English and Spanish"]
     };
     return(
