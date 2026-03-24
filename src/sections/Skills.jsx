@@ -5,7 +5,7 @@ function Skills() {
     const skills = {
         programming_languages: ["JavaScript", "TypeScript", "PHP", "HTML/CSS", "SQL"],
         frameworks: ["React", "Next.js", "Node.js", "Express.js", "Tailwind CSS"],
-        tools: ["Git", "GitHub", "VSCode", "Vercel", "npm", "Linux(Arch)"],
+        tools: ["Git", "GitHub", "VSCode", "Vercel", "npm", "Linux (Arch)"],
         databases: ["PostgreSQL", "MySQL", "MongoDB", "Firebase"],
         security: ["Security+", "Network Security"],
         other: ["RESTful APIs, Responsive Design, Security Best Practices, Agile Development"],
